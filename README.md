@@ -1,1 +1,1 @@
-# odin-dropdown_menu-image_slider
+The project "Dynamic User Interface Interactions" includes a dropdown menu that toggles on click and an image carousel with navigation arrows and dots. The carousel auto-advances every 5 seconds. The focus is on DOM manipulation and responsive UI behavior.

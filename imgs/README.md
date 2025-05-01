@@ -1,0 +1,1 @@
+All images used are screenshots of her last banger of a song "Horny Money World" if you wish to hear it here is the link https://www.youtube.com/watch?v=2_opjVlYhi4

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drop-down menus and Image carousel</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <header class="dropdown-container">
+        <button onclick="showinfo()" class="dropbtn">Who is Houshou Marine?</button>
+        <div class="dropdiv">
+            <a>1ª Japanese Vtuber</a>
+            <a>Also called Senchou (Captain)</a>
+            <a>17yo (in her thirties)</a>
+            <a>150 cm</a>
+            <a>REALLYYY good singer</a>
+        </div>
+    </header>
+    <br>
+    <main>
+        <div class="slideshow-container">
+            <div class="picture-frame fade">
+                <img src="./imgs/slide1.jpeg" alt="Senchou in front of her boat">
+            </div>
+            <div class="picture-frame fade">
+                <img src="./imgs/slide2.jpeg" alt="Cute Senchou">
+            </div>
+            <div class="picture-frame fade">
+                <img src="./imgs/slide3.jpeg" alt="Mature Senchou">
+            </div>
+            <div class="picture-frame fade">
+                <img src="./imgs/slide4.jpeg" alt="Cute Marine">
+            </div>
+            <a class="prev" onclick="prevImg()">&#10094;</a>
+            <a class="next" onclick="nextImg()">&#10095;</a>
+        </div>
+        <br>
+        <div class="center">
+            <span class="dot" onclick="dotImg(0)"></span>
+            <span class="dot" onclick="dotImg(1)"></span>
+            <span class="dot" onclick="dotImg(2)"></span>
+            <span class="dot" onclick="dotImg(3)"></span>
+        </div>
+        <div class="text">
+            <p>All images displayed are screenshots of her last banger of a song "Horny Money World"
+                if you wish to hear it <a href="https://www.youtube.com/watch?v=2_opjVlYhi4">click me</a>
+            </p>
+        </div>
+    </main>
+</body>
+</html>
